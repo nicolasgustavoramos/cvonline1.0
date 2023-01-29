@@ -1,0 +1,634 @@
+/*************************************************************************************************/
+/**************************************** FUENTE DE GOOGLE ***************************************/
+/*************************************************************************************************/
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+body {
+  margin: 0
+}
+
+.container1 {
+	max-width: 900px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.grid2,
+.grid1 {
+	display: inline;
+	float: left;
+	position: relative;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.container1 .grid2 {
+	width: 45.0%;
+  margin-right: 30px;
+}
+
+.container1 .grid1 {
+	width: 98.0%;
+}
+
+
+/*************************************************************************************************/
+/******************************************* ENCABEZADO ******************************************/
+/*************************************************************************************************/
+
+header {
+  background: #fa7853;
+  border-bottom: 1px solid #ffffff;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+header figure {
+  float: left;
+}
+
+header figure img {
+  border-radius: 100px;
+  border: solid #ffffff;
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+
+header hgroup {
+  float: right;
+  text-align: center;
+}
+
+header hgroup h1 {
+  color: #ffffff;
+  font: 400 40px oswald, sans-serif;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+}
+
+header hgroup h2 {
+  color: #fff;
+  font-style: italic;
+  font: 400 20px oswald,sans-serif;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+}
+
+#cv {
+  width: 60px;
+  height: 75px;
+  float: center;
+  /* IE 9 */
+  -ms-transform: rotate(10deg); 
+  /* Chrome, Safari, Opera */
+  -webkit-transform: rotate(10deg); 
+  transform: rotate(10deg);
+}
+
+
+/*************************************************************************************************/
+/****************************************** PIE DE PÁGINA ****************************************/
+/*************************************************************************************************/
+
+footer {
+  background: #fa7853;
+  overflow: hidden;
+}
+
+footer h1 {
+  color: #ffffff;
+  font-style: italic;
+  font: 500 30px oswald,sans-serif;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+  text-align: center;
+  padding-top: 30px;
+  
+}
+
+footer h2 {
+  color: #000000;
+  font-style: italic;
+  font: 20 30px oswald,sans-serif;
+  text-shadow: 1px 1px 0 rgba(206, 194, 194, 0.3);
+  text-align: center;
+}
+
+
+/*************************************************************************************************/
+/************************************* FOMULARIO DE CONTACTO *************************************/
+/*************************************************************************************************/
+
+.contact_form {  
+  width: 430px; 
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;  
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 10px;  
+  background-color: #fbfbfb; 
+}
+
+input {
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #fa7853; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+textarea {
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #fa7853; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px;
+  resize: vertical;
+}
+
+label {
+  display: block; 
+  float: center;  
+}
+
+button {
+  height: 50px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #fa7853; 
+  border-color: #fa7853; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+  text-align: center;
+}
+
+button p {
+  color: #fff; 
+  text-align: center;
+}
+
+span {
+  color: #fa7853; 
+}
+
+.aviso {
+  font-size: 12px;  
+  color: #0e0e0e;  
+}
+
+
+/*************************************************************************************************/
+/*************************************** SECCIÓN PRINCIPAL ***************************************/
+/*************************************************************************************************/
+
+p {
+  font: 400 15px oswald, sans-serif;
+  text-align: justify;
+}
+
+p1 {
+  font: 400 15px oswald, sans-serif;
+  text-align: left;
+}
+
+h4 {
+  color: #fa7853;
+  font: 400 20px oswald, sans-serif;
+ }
+
+a {
+color:#fa7853;
+}
+
+section[role=main] {
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+section[role=main] > div {
+  margin-top: 65px;
+}
+
+section[role=main] h2 {
+  margin-top: 0px;
+  position: relative;
+  font: 400 20px oswald, sans-serif;
+}
+
+section[role=main] h3 {
+  border-bottom: 1px solid #BDBDBD;
+  padding: 0 0 20px 60px;
+  margin-top: 0px;
+  position: relative;
+  font: 400 20px oswald, sans-serif;
+}
+
+.icon {
+  display: block;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: -10px;
+  width: 50px;
+}
+
+.experiences ul, .training ul {
+  padding: 0px;
+}
+
+section[role=main] h4 {
+  margin-bottom: 0px;
+}
+
+section[role=main] h4 strong {
+  color: #fa7853;
+  font-weight: normal;
+  font: 400 17px oswald, sans-serif;
+}
+
+.experiences li, .training li {
+  margin-bottom: 35px;
+  list-style: none;
+}
+
+
+/*************************************************************************************************/
+/***************************************** CONOCIMIENTOS *****************************************/
+/*************************************************************************************************/
+
+.knowledge .values {
+  padding: 0px;
+}
+
+.knowledge .values li {
+  margin-bottom: 25px;
+  position: relative;
+  list-style: none;
+  font: 400 14px oswald, sans-serif;
+}
+
+.knowledge .values li:after {
+		background: #e1e1e1;
+		bottom: -4px;
+		content: ' ';
+		display: block;
+		height: 5px;
+		position: absolute;
+		width: 100%;
+	}
+
+.knowledge .values li span {
+  background: #fa7853;
+  bottom: -4px;
+  content: ' ';
+  display: block;
+  height: 5px;
+  left: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 1;
+}
+
+.grid2 ul {
+  padding: 15px;
+}
+
+.grid2 ul li {
+  font: 400 15px oswald, sans-serif;
+  margin-bottom: 3px;
+  list-style: none;
+}
+
+.grid2 .information li:before, .grid2 .contact li:before {
+  content: '\2023';
+  font: 400 15px oswald, sans-serif;
+  margin-bottom: 3px;
+  display: block;
+  position: relative;
+  max-width: 0;
+  max-height: 0;
+  left: -15px;
+  top: 0;
+  color: #fa7853;
+  font-size: 20px;
+}
+
+.grid1
+
+.site {
+  background-position: 0 -2px;
+  color: #848484;
+  font: 400 15px oswald, sans-serif;
+}
+	
+.date {
+  background-position: 0 -20px;
+  color: #999;
+  font: 400 15px oswald, sans-serif;
+}
+
+.phone {
+  background-position: 0 -40px;
+}
+
+.mail {
+  background-position: 0 -60px;
+}
+
+.blog {
+  background-position: 0 -80px;
+}
+
+
+/*************************************************************************************************/
+/***************************************** REDES SOCIALES ****************************************/
+/*************************************************************************************************/
+
+.social {
+  width: 40px;
+  height: 40px;
+  margin: 10px 38px 25px 38px;
+}
+
+.formation1 {
+  float: left;
+}
+
+.formation2 {
+  float: right;
+}
+
+#reel {
+  width: 320px;
+  height: 240px;
+  margin: 10px 10px 10px 20px;
+}
+
+/*************************************************************************************************/
+/********************************************* EFECTOS *******************************************/
+/*************************************************************************************************/
+
+/* Chrome, Safari, Opera */
+
+.fadeInDown {
+  -webkit-animation: fadeInDown 4s; 
+  animation: fadeInDown 4s;
+}
+
+.fadeInUp {
+  -webkit-animation: fadeInUp 4s; 
+  animation: fadeInUp 4s;
+}
+
+.fadeInUp2 {
+  -webkit-animation: fadeInUp2 4s; 
+  animation: fadeInUp2 4s;
+}
+
+.fadeInLeft {
+  -webkit-animation: fadeInLeft 4s; 
+  animation: fadeInLeft 4s;
+}
+
+.fadeInRight {
+  -webkit-animation: fadeInRight 4s; 
+  animation: fadeInRight 4s;
+}
+
+.appear {
+  -webkit-animation: appear 4s; 
+  animation: appear 4s;
+}
+
+@keyframes fadeInDown {
+    0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp2 {
+    0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInLeft {
+    0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+    0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes appear {
+    0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/************************************************************************************************/
+/****************************************** MODO OSCURO *****************************************/
+/************************************************************************************************/
+
+#dm {
+  width: 20px;
+  height: 20px;
+}
+
+body.dark {   
+  background:  #333333; 
+}
+
+body.dark header {
+  background: #6f0a9b;
+  border-bottom: 1px solid #333333;
+}
+
+body.dark header figure img {
+  border: solid #333333;
+}
+
+body.dark p {
+  color: #ffffff;
+}
+
+body.dark a {
+  color: #c830f7;
+}
+
+body.dark .values {
+  color:#ffffff;
+}
+
+body.dark h1 {   
+  color:#000000
+}
+
+body.dark h2 {   
+  color:#000000
+}
+
+body.dark h3 {
+  color: #ffffff;
+}
+
+body.dark h4 {
+  color: #ffffff;
+}
+
+body.dark footer {
+  background: #6f0a9b;
+}
+
+body.dark .contact_form {  
+  background-color: #333333; 
+}
+
+body.dark input {
+  background-color: #ffffff; 
+  border-color: #b31df3; 
+}
+
+body.dark textarea {
+  background-color: #ffffff; 
+  border-color: #6f0a9b; 
+}
+
+body.dark label {
+  color: white;
+}
+
+body.dark button {
+  background-color: #6f0a9b; 
+  border-color: #b31df3; 
+}
+
+body.dark span {
+  color: #b31df3; 
+}
+
+body.dark .aviso {
+  font-size: 12px;  
+  color: white;  
+}
+
+body.dark .knowledge .values li span {
+  background: #b31df3;
+}
+
+body.dark .knowledge .values li span {
+  background: #b31df3;
+}
+
+body.dark div {
+ color: #ffffff;
+}
+
+body.dark div h4 {
+  color: #fa7853;
+  font: 400 20px oswald, sans-serif;
+ }
+
+.darkModeSwitch {
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+  width: 60px;
+  height: 30px;
+  background: #ffffff;
+  display:flex;
+  position: fixed;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  float: right;
+}
+
+.darkModeSwitch::after {
+  display:block;
+  background: #383535;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right:unset;
+  border-radius: 2rem;
+  transition: all .5s ease;
+  content: "";
+}
+
+.darkModeSwitch.active {
+  background: #f0e0e0;
+  border-bottom: 1px solid #000000;
+}
+
+.darkModeSwitch.active::after {
+left:unset;
+right:0;
+}
